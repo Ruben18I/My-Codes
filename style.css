@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merienda", cursive;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Pics/BackG.jpg);
+    background-position: center;
+    background-size: cover;
+
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;   
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff ;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center; 
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(54, 84, 220);
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18.18px;
+    line-height: 20.35px;
+}
+button{
+    width: 150px;
+    color: #000;
+    font-size: 22px;
+    font-family:"Merienda", cursive;
+    font-weight: 600;
+    padding: 12px 0;
+    background: rgb(179, 179, 179);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 290px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 12px 15px;
+    font-size: larger;
+    text-align: right;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(Pics/Stockholm.jpg);
+}
+.card2{
+    background-image: url(Pics/Copenhägen.jpg);
+    color: darkblue;
+}
+.card3{
+    background-image: url(Pics/Treehaus.jpg);
+    color: rgb(39, 39, 194);
+}
+.card4{
+    background-image: url(Pics/Northern-lights.jpg);
+}
+
+.card:hover{
+    transform: translateY(-18px);
+}
+
+h4{
+    text-shadow: 0 0 12px #000;
+}
